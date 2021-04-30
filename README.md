@@ -86,6 +86,13 @@ You do some more reading about Python and NLP and you learn about this cool tool
 
 Try editing the `environment.yml` file to install `spacy` instead of `NLTK` and to also install `scispacy`.
 
+Once you have updated your `environment.yml` file run the following command
 
+`conda env update -f environment.yml --prune`
+
+__Note:__ I didn't run add the `--prune` argument during the grand rounds; this was a mistake. `--prune` will remove any packages that are no longer required by what is specified in the `environment.yml` file.
+
+
+Once you have given it a good shot, slock on the link below to see what I did.
 
 [spaCy Environment](spacy.md)
