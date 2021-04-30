@@ -23,7 +23,7 @@ The equivalent `conda` command is `conda export`
 
 Alternatively if we only want to export the packages we explicitly asked for, we can add the `--from-history` argument
 - `conda env export --from-history > environment.yml`
-    - __Note:__ this seems to exclude what we asked for with
+    - __Note:__ this seems to exclude what we asked for with `pip`.
 
 #### Install the Environment
 
